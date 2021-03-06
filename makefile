@@ -1,4 +1,3 @@
-# Jeffrey Tan.  Lab5
 CC = gcc
 
 recVolArea: lab5.o open_in_file.o open_out_file.o find_box_values.o print_headers.o lab5.h
