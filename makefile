@@ -1,7 +1,7 @@
 CC = gcc
 
 recVolArea: lab5.o open_in_file.o open_out_file.o find_box_values.o print_headers.o lab5.h
-		$(CC) lab5.o open_in_file.o open_out_file.o find_box_values.o print_headers.o -o recVolArea -lm
+		$(CC) lab5.o open_in_file.o open_out_file.o find_box_values.o print_headers.o -o recVolArea
 
 lab5.o: lab5.c lab5.h
 		$(CC) -c lab5.c
